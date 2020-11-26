@@ -1,0 +1,102 @@
+main{background-color: black;}
+    @font-face{ font-family: "Boxer Script JF";
+    src: url("fuentes/Boxer\ Script\ JF\ Regular.ttf");
+
+
+}
+body{background-color: black;}
+
+    .header{ background-color: darkred; text-align: center; }
+    .nombre{ font-family: "Boxer Script JF"; font-size: 70px; color: black;}
+    .barra{ background-color: darkred;}
+    .navar{ display:flex; align-content: center; }
+    .cajas{ background-color: darkred; }
+    .cajas2{ animation: opacityPulse 2s ease-out;
+        animation-iteration-count: infinite; 
+        opacity: 1;}
+    .nirbox{ background-color: rgb(218, 198, 26); }
+    .chicbox{ background-color: rgb(36, 43, 54) }
+    .otrbox{ background-color: rgb(55, 2, 99) }
+    .texto{ padding: 20px; font-size: 20px; color: black;}
+    .textotros{ padding: 20px; font-size: 20px; color: rgb(236, 205, 205);}
+    .textochic{ padding: 20px; font-size: 20px; color: rgb(236, 205, 205);}
+    .columnachau{ padding: 20px; font-size: 20px; color: black; column-count: 2;}
+    .columnachauotros{ padding: 20px; font-size: 20px; color:  rgb(236, 205, 205); column-count: 2;}
+    .titulos{ padding: 20px; color: black;}
+    .titulochics{ padding: 20px; color:rgb(236, 205, 205);}
+    .titulotros{ padding: 20px; color:rgb(236, 205, 205);}
+    .nirvanatitu{ font-family: 'Castoro', serif; padding: 20px; color: black; font-size: 280%;}
+    .clasica{ padding-right: 0px; width: 85%; padding-left: 15%;
+     padding-top: 38px}
+     .chico { background-color: darkred; display: flex;
+    justify-content: center; padding-bottom:5% ; padding-top: 
+    5%;}
+    .bluechico { background-color:rgb(36, 43, 54); display: flex;
+        justify-content: center; padding-bottom:5% ; padding-top: 
+        5%;}
+        .amachico{ background-color: rgb(218, 198, 26); display: flex;
+            justify-content: center; padding-bottom:5% ; padding-top: 
+            5%;}
+        .violetachico { background-color:   rgb(55, 2, 99); display: flex;
+            justify-content: center; padding-bottom:5% ; padding-top: 
+            5%;}
+    .espacio{ background-color: black;}
+    .nirvana{ padding-top: 2%;}
+    .foofighters{ font-size: 280%; font-family: "Boxer Script JF" }
+    .ff{ width: 85%}
+    .carta{padding: 20px; display: flex; justify-content: center; }
+    .formu{ display: flex; justify-content: center;}
+    .arroba{display: flex; justify-content: center; align-items: flex-end; }
+        .fffoto{ padding-bottom:5%; display: flex;
+            justify-content: center;}
+    .fflogo{ display: flex;
+        justify-content: center;}
+        .button{ 
+           
+            animation:colorswap  3s ease-in-out infinite;
+
+    }
+    .envias{ background-color: gray;}
+    .envias:hover { background-color:rgb(55, 2, 99);
+    transition: 0.6s;;}
+    .mensaje  {animation:fontagranda  3s ease-in-out infinite; }
+
+
+
+
+
+        @keyframes opacityPulse {
+            0% {opacity: 0.3;}
+            50% {opacity: 1;}
+            100% {opacity: 0.3; }
+        }
+
+
+        @keyframes fontagranda {
+            0%, 100% {
+              font-size: 15px;
+            }
+            50% {
+              font-size: 16px;
+            }
+          }
+        
+          @keyframes colorswap {
+            0% {
+                color: black;
+            }
+            50% {
+                color:darkgray;
+            }
+            100%{
+                color:black;
+            }
+             
+        }
+        
+      
+          
+        
+
+
+        

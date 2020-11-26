@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('./Images/fondoBody.jpeg');
+    background-size: contain;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(68, 67, 67);
+}
+
+header >div:first-of-type{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    padding: 5px 5px 5px 5px;
+}
+
+header >div:first-of-type img{
+    width: 100%;
+    max-width: 220px;
+    max-height: 220px;
+}
+
+header >div:first-of-type >div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+header >div:first-of-type >div h1{
+    color: white;
+    text-align: flex;
+    padding-left: 10px;
+}
+
+header >div:first-of-type >div p{
+    color: rgb(54, 128, 177);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+header >nav{
+    width: 100%;
+    height: fit-content;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(68, 67, 67);
+}
+
+header >nav >ul{
+    width: 100%;
+    height: fit-content;
+    padding: 5px 5px 5px 5px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header >nav >ul >li{
+    width: 100%;
+    height: fit-content;
+}
+
+header >nav >ul >li >a{
+    display: block;
+    width: 100%;
+    height: fit-content;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+header >nav >ul >li >a:hover{
+    animation-name: boton;
+    animation-duration: 0.6s;
+    color: rgb(148, 28, 28);
+    transition: 0.6s;
+}
+
+main{
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    padding:5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+main >div:first-of-type{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding:5px 5px 5px 5px;
+    flex-direction: column;
+
+}
+
+main >div:first-of-type >section{
+    width: 100%;
+    height: fit-content;
+    padding:5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main >div:first-of-type >section h2{
+    color: white;
+    text-align: center;
+}
+
+main >div:first-of-type >section ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    height: fit-content;
+    padding:5px 5px 5px 5px;
+}
+
+main >div:first-of-type >section ul li{
+    color: white;
+    width: 100%;
+    height: fit-content;
+    padding:5px 5px 5px 5px;
+    text-align: center;
+}
+
+main >div:nth-of-type(2) >section{
+    width: 100%;
+    height: fit-content;
+    padding:5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main >div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 5px 5px 5px 5px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+main >div:nth-of-type(2) >section h2{
+    color: white;
+    text-align: center;
+}
+
+main >div:nth-of-type(2) >section ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    height: fit-content;
+    padding:5px 5px 5px 5px;
+}
+
+main >div:nth-of-type(2) >section p{
+    width: 100%;
+    height: fit-content;
+    padding:5px 5px 5px 5px;
+    color: white;
+    text-align: center;
+}
+
+main >div:nth-of-type(2) >section ul li{
+    color: white;
+    width: 100%;
+    height: fit-content;
+    padding:5px 5px 5px 5px;
+    text-align: center;
+}
+
+main >div:last-of-type{
+    width: 100%;
+    height: fit-content;
+    padding:5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main >div:last-of-type section{
+    display: flex;
+    flex-direction: column;
+}
+
+main >div:last-of-type section h2{
+    color: white;
+    text-align: center;
+}
+
+main >div:last-of-type section p{
+    color: white;
+    text-align: center;
+}
+
+main >div:last-of-type section img{
+    width: 50%;
+}
+
+main >div:last-of-type section >ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    height: fit-content;
+    padding: 5px 5px 5px 5px;
+
+}
+
+main >div:last-of-type section >ul >div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+main >div:last-of-type section >ul >div >li{
+    width: 100%;
+    height: fit-content;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main> div:last-of-type section >ul >div >li >figure >img{
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main> div:last-of-type section >ul >div >li >figure >figcaption{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+main> div:last-of-type section >ul >div >li >figure >img:hover{
+
+    animation-name: albumes;
+    animation-duration: 1s;
+    width: 170px;
+    height: 170px;
+    transition: 1s;
+}
+.rallitachau2{text-decoration: none;}
+.rallitachau{
+text-decoration: none ;
+
+
+
+
+}
+.rallitachau:hover{ 
+    color: rgb(148, 28, 28);
+    transition: 0.6s;
+    text-decoration: none;
+  
+
+
+
+}
+@media (min-width: 480px){
+
+    header >div:first-of-type >img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    header >nav{
+        height: 60px;
+    }
+
+    header >nav >ul{
+        flex-direction: row;
+    }
+
+
+    main >div:first-of-type{
+        flex-direction: row;
+    }
+
+    main >div:nth-of-type(2){
+        flex-direction: row;
+    }
+
+    main >div:last-of-type section >ul >div{
+        flex-direction: row;
+        
+    }
+
+    main >div:last-of-type >section{
+        height: 550px;
+    }
+    main >div:last-of-type >section >ul{
+        padding-top: 60px;
+    }
+
+}
+
+@media (min-width:900px){
+    header >nav{
+        height: 50px;
+    }
+
+    main >div:last-of-type >section >ul {
+        flex-direction: row;
+    }
+
+    main >div:last-of-type >section{
+        height: 400px;
+    }
+    main >div:last-of-type >section >ul{
+        padding-top: 70px;
+    }
+
+}
+
+@keyframes boton{
+    0%{
+        color: white;
+        font-size: 14px;
+    }
+
+    50%{
+        color: rgb(148, 28, 28);
+        font-size: 16px;
+    }
+
+    1000%{
+        color: white;
+        font-size: 14px;
+    }
+
+}
+
+@keyframes albumes{
+    0% {
+        width: 130px;
+        height: 130px;
+    }
+
+
+    100% {
+        width: 170px;
+        height: 170px;
+     }
+}

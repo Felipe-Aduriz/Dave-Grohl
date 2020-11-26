@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&family=Permanent+Marker&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+  body{
+    max-height: 800px;
+    background-color: black;
+  }
+  
+  #principal{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    background-color: black;
+    min-width: 900px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 800px;
+  }
+  
+  #principal >div:first-of-type{
+  
+    display: flex;
+    width: 90%;
+    height: 100vh;
+    justify-self: center;
+    align-self: center;
+    max-height: 600px;
+  }
+
+  #principal >div:first-of-type{
+    display: block;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #piernarota{
+    background-image: url('images/piernaRota.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    max-height: 600px;
+    position: absolute;
+  top: 20px;
+  left: 20px;
+  max-height: 600px;
+  max-width: 400px;
+  min-height: 300px;
+    min-height: 300px;
+    z-index: 400;
+  }
+
+  #piernarota:hover{
+    background-image: url('images/piernaSana.jpg');
+    animation: amim1 1s infinite;
+    transition: 1s;
+  }
+  #piernaSana{
+  background-image: url('images/piernaSana.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  max-height: 600px;
+  max-width: 400px;
+  min-height: 300px;
+  z-index: 1;
+}
+ 
+  
+  #principal >div:last-of-type{
+    display: flex;
+    width: 90%;
+    height: 70vh;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    max-height: 600px;
+  }
+
+  #principal >div:last-of-type >div{
+    display: grid;
+    width: 100%;
+    height: 70vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    max-height: 600px;
+  }
+
+  #principal >div:last-of-type >div >div{
+
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+  }
+
+  #principal >div:last-of-type >div >div:first-of-type >h1{
+    font-size: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ced5f3;
+  }
+
+  #principal >div:last-of-type >div >div:nth-of-type(2) >p{
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ced5f3;
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  #principal >div:last-of-type >div >div:nth-of-type(3) >p{
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ced5f3;
+  }
+
+
+  #principal >div:last-of-type >div >div:nth-of-type(4) >p{
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ced5f3;
+  }
+
+  #principal >div:last-of-type >div >div:last-of-type >a{
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #ced5f3;
+  }
+
+  #principal >div:last-of-type >div >div:last-of-type >a:hover{
+    transition: 0.5s;
+    color: darkred;
+  }
+
+
+  @keyframes anim1{ 
+    0% { opacity: 1;}
+    100% { opacity: 0;}
+  }
